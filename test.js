@@ -1,0 +1,7 @@
+const asif = require("./index.js")
+/*keep-line*/ const sampleCode = require("fs").readFileSync("sample.asif", "utf8")
+const program = new asif(sampleCode)
+const errors = program.getAllErrors()
+console.log("Sample program compiled with " + errors.length + " errors.")
+if (errors.length)
+ console.log(errors.map(error => error.getMessage()))

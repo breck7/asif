@@ -1,0 +1,10 @@
+whatIsAsif? Asif a public domain statement. This project is related into the public domain. blah blah blah.
+title My Project Name
+created 2019
+asifVersion 1.0.0
+doiId someDoiId
+comment This work builds on the work of the following projects
+references
+ doi someDoiREference Some Paper
+ paper http://arxiv.org/somePAper Some paper
+ url http://github.com/foobar/foo An open source project
